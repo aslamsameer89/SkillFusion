@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SkillFusion Curriculum</title>
+<link rel="icon" href="img/fav.png" />
+<style>
+  /* Base styling */
+  body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+  }
+
+  .curriculum-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    animation: fadeIn 1s ease;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    animation: slideDown 0.8s ease;
+  }
+
+  p.subtext {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    animation: fadeIn 1.2s ease;
+  }
+
+  .section {
+    margin-bottom: 35px;
+    padding: 20px;
+    border-left: 4px solid #4f46e5;
+    background: #fafafa;
+    border-radius: 8px;
+    animation: fadeUp 0.8s ease;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+
+  ul {
+    margin: 10px 0 0 15px;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .curriculum-container {
+      padding: 15px;
+    }
+    h1 {
+      font-size: 1.9rem;
+    }
+    .section {
+      padding: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.6rem;
+    }
+    .section h2 {
+      font-size: 1.3rem;
+    }
+    body {
+      padding: 10px;
+    }
+  }
+
+    /* ------------------------------------------- */
+    /* Base styling - Updated to match SkillFusion Palette */
+    /* ------------------------------------------- */
+    body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        padding: 0;
+        /* Matches your sticky header background/soft background */
+        background: #fdf2e9; 
+        color: #333;
+    }
+
+    .curriculum-container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 30px; /* Slightly increased padding */
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        animation: fadeIn 1s ease;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2.6rem; /* Slightly larger */
+        margin-bottom: 10px;
+        color: #e67e22; /* Primary color for title */
+        animation: slideDown 0.8s ease;
+    }
+
+    p.subtext {
+        text-align: center;
+        font-size: 1.2rem; /* Slightly larger */
+        color: #6f6f6f; /* Used in your plan text */
+        margin-bottom: 40px;
+        animation: fadeIn 1.2s ease;
+    }
+
+    /* Curriculum Section Styles */
+    .section {
+        margin-bottom: 35px;
+        padding: 20px;
+        /* Border color is now your primary accent color */
+        border-left: 4px solid #e67e22; 
+        /* Background color is now a softer peach tone, similar to your site backgrounds */
+        background: #fae5d3; 
+        border-radius: 8px;
+        animation: fadeUp 0.8s ease;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Added subtle shadow */
+    }
+
+    .section h2 {
+        font-size: 1.7rem; /* Slightly larger */
+        margin-top: 0;
+        color: #333;
+        font-weight: 600; /* Matching your meal titles */
+    }
+
+    ul {
+        margin: 10px 0 0 15px;
+        padding: 0;
+    }
+
+    ul li {
+        margin-bottom: 10px; /* Increased spacing */
+        line-height: 1.6; /* Increased line height */
+        font-size: 1.1rem;
+    }
+
+    /* CTA Box Styling */
+    .cta-box {
+        text-align: center;
+        margin-top: 50px;
+        padding: 30px;
+        /* Using the gradient from your main CTA section */
+        background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+        border-radius: 9px;
+        color: #45260a; /* Dark text color from your CTA */
+    }
+
+    .cta-box h3 {
+        color: inherit; /* Use the color from the parent box */
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .cta-box a {
+        /* Adopting the style of your main CTA buttons (.main-nav-link.nav-cta) */
+        display: inline-block;
+        text-decoration: none;
+        padding: 1.2rem 2.4rem;
+        border-radius: 9px;
+        color: #fff;
+        background-color: #cf711f; /* Darker orange for the button */
+        font-weight: 500;
+        font-size: 1.8rem;
+        transition: all 0.3s;
+    }
+
+    .cta-box a:hover {
+        background-color: #a3581a; /* Even darker hover state */
+    }
+
+    /* ------------------------------------------- */
+    /* Animations & Responsive (Kept Original) */
+    /* ------------------------------------------- */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+        .curriculum-container {
+            padding: 15px;
+        }
+        h1 {
+            font-size: 2.2rem;
+        }
+        .section {
+            padding: 15px;
+        }
+        .cta-box h3 {
+             font-size: 2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.8rem;
+        }
+        .section h2 {
+            font-size: 1.4rem;
+        }
+        body {
+            padding: 10px;
+        }
+        .curriculum-container {
+            padding: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>SkillFusion – Complete Curriculum</h1>
+  <p>Your pathway to becoming a job‑ready Business Analyst, Scrum Master, or Product Owner.</p>
+</div>
+
+<!-- <div class="container">
+
+  <div class="section">
+    <h2>1. Business Analysis Foundations</h2>
+    <ul>
+      <li>Introduction to Business Analysis</li>
+      <li>Role of a Business Analyst</li>
+      <li>SDLC (Waterfall, Agile, Hybrid)</li>
+      <li>Key BA Skills: analysis, communication, problem‑solving</li>
+      <li>Understanding IT project environments</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Requirements Engineering</h2>
+    <ul>
+      <li>Types of Requirements</li>
+      <li>Requirements Gathering Techniques</li>
+      <li>Writing High‑quality Requirements</li>
+      <li>BRD, FRD, SRS Documentation</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Agile & Scrum</h2>
+    <ul>
+      <li>Agile mindset and principles</li>
+      <li>Scrum ceremonies & roles</li>
+      <li>User stories & acceptance criteria</li>
+      <li>Estimation & backlog refinement</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Product Ownership Essentials</h2>
+    <ul>
+      <li>Product vision & roadmap</li>
+      <li>Backlog prioritization techniques</li>
+      <li>Stakeholder collaboration</li>
+      <li>Value-driven delivery</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Tools Training (Hands‑On)</h2>
+    <ul>
+      <li>JIRA: epics, stories, sprints</li>
+      <li>Confluence: documentation & collaboration</li>
+      <li>Miro / FigJam: diagrams & flows</li>
+      <li>Balsamiq / Figma: wireframes</li>
+      <li>Lucidchart / Draw.io: UML & process mapping</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. UML & Process Mapping</h2>
+    <ul>
+      <li>Use case diagrams</li>
+      <li>Activity diagrams</li>
+      <li>Sequence diagrams</li>
+      <li>AS‑IS / TO‑BE process models</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Testing & UAT</h2>
+    <ul>
+      <li>Testing types & BA involvement</li>
+      <li>UAT planning & test cases</li>
+      <li>Executing UAT & defect handling</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. Real‑World Project</h2>
+    <ul>
+      <li>Elicitation session</li>
+      <li>BRD, SRS, user stories</li>
+      <li>UML diagrams & wireframes</li>
+      <li>JIRA project setup</li>
+      <li>Portfolio‑ready project deliverables</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>9. Job Preparation & Interview Support</h2>
+    <ul>
+      <li>Resume & LinkedIn optimization</li>
+      <li>1:1 mock interviews</li>
+      <li>Behavioral & scenario‑based BA questions</li>
+      <li>Job search guidance</li>
+    </ul>
+  </div>
+
+  <div class="cta-box">
+    <h3>Ready to Start Your IT Career?</h3>
+    <a href="index.html#cta">Enroll Now</a>
+  </div>
+
+</div> -->
+
+
+<div class="container">
+  <h1>1. BUSINESS ANALYST CURRICULUM</h1>
+
+  <div class="section">
+    <h2>1. Business Analysis Foundations</h2>
+    <ul>
+      <li>Introduction to Business Analysis</li>
+      <li>Role of a Business Analyst in IT</li>
+      <li>SDLC models: Waterfall, Agile, Hybrid</li>
+      <li>Core BA skills: analysis, communication, documentation</li>
+      <li>Understanding enterprise systems & IT environments</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Requirements Engineering</h2>
+    <ul>
+      <li>Functional & non-functional requirements</li>
+      <li>Requirements elicitation techniques</li>
+      <li>Writing BRD, FRD & SRS documents</li>
+      <li>Requirement validation & sign-off</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Agile & Scrum for BAs</h2>
+    <ul>
+      <li>Agile values & Scrum workflow</li>
+      <li>BA responsibility in agile teams</li>
+      <li>User stories, acceptance criteria & story mapping</li>
+      <li>Backlog refinement & estimation</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Tools Training (Hands-On)</h2>
+    <ul>
+      <li>JIRA: epics, stories & sprint boards</li>
+      <li>Confluence: documentation & templates</li>
+      <li>Miro / FigJam: diagrams, flows & mapping</li>
+      <li>Balsamiq / Figma: basic wireframes</li>
+      <li>Lucidchart / Draw.io: UML diagrams</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. UML & Process Mapping</h2>
+    <ul>
+      <li>Use case diagrams</li>
+      <li>Activity & sequence diagrams</li>
+      <li>AS-IS / TO-BE process models</li>
+      <li>Business process mapping techniques</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Testing & UAT</h2>
+    <ul>
+      <li>Testing fundamentals for BAs</li>
+      <li>Preparing UAT test scenarios & cases</li>
+      <li>Executing UAT & capturing defects</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Real-World Project</h2>
+    <ul>
+      <li>Elicitation workshop</li>
+      <li>BRD, SRS & user story creation</li>
+      <li>UML diagrams, flows & wireframes</li>
+      <li>Project in JIRA & Confluence</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. Job Preparation & Interview Support</h2>
+    <ul>
+      <li>Resume & LinkedIn optimization</li>
+      <li>BA interview questions & scenarios</li>
+      <li>1:1 mock interviews</li>
+      <li>Job search guidance</li>
+    </ul>
+  </div>
+
+</div>
+
+
+<!--  -->
+<div class="container">
+  <h1>2. PRODUCT OWNER CURRICULUM</h1>
+
+  <div class="section">
+    <h2>1. Product Ownership Foundations</h2>
+    <ul>
+      <li>Understanding the Product Owner role</li>
+      <li>Agile & Scrum concepts for POs</li>
+      <li>PO responsibilities in product teams</li>
+      <li>Stakeholder management & collaboration</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Product Strategy</h2>
+    <ul>
+      <li>Vision, mission & value proposition</li>
+      <li>Product roadmaps & release planning</li>
+      <li>Market research & customer insights</li>
+      <li>Competitive analysis</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Backlog Management</h2>
+    <ul>
+      <li>Creating & refining product backlog</li>
+      <li>User stories, acceptance criteria & story maps</li>
+      <li>Prioritization techniques (MoSCoW, WSJF, RICE)</li>
+      <li>Release planning & sprint alignment</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Product Delivery</h2>
+    <ul>
+      <li>Working with dev teams</li>
+      <li>Scrum ceremonies for POs</li>
+      <li>Definition of Ready & Done</li>
+      <li>Managing changes & risks</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Tools Training</h2>
+    <ul>
+      <li>JIRA backlog & release tracking</li>
+      <li>Confluence: documentation & product requirements</li>
+      <li>Miro / FigJam: journey maps & prioritization boards</li>
+      <li>Analytics basics (GA4, Mixpanel)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Real-World Product Project</h2>
+    <ul>
+      <li>Create a complete product vision</li>
+      <li>Prepare roadmap & backlog</li>
+      <li>User stories & acceptance criteria</li>
+      <li>MVP definition & feature breakdown</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Job Preparation</h2>
+    <ul>
+      <li>Resume & LinkedIn for Product Owners</li>
+      <li>PO interview questions & case studies</li>
+      <li>Mock interviews & feedback</li>
+    </ul>
+  </div>
+
+</div>
+
+<!--  -->
+<div class="container">
+  <h1>3. PRODUCT MANAGER CURRICULUM</h1>
+
+  <div class="section">
+    <h2>1. Product Management Foundations</h2>
+    <ul>
+      <li>Introduction to Product Management</li>
+      <li>PM vs PO vs BA roles</li>
+      <li>Product lifecycle & frameworks</li>
+      <li>Strategic thinking & decision-making</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Product Discovery</h2>
+    <ul>
+      <li>Customer research & interviews</li>
+      <li>Persona building</li>
+      <li>Problem framing & opportunity sizing</li>
+      <li>Prototyping & validation</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Product Strategy & Roadmapping</h2>
+    <ul>
+      <li>Product vision & OKRs</li>
+      <li>Roadmaps & prioritization models</li>
+      <li>Feature scoping & MVP planning</li>
+      <li>Data-driven product decisions</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Execution & Delivery</h2>
+    <ul>
+      <li>Working with engineering</li>
+      <li>Sprint planning & tracking</li>
+      <li>Managing risks, dependencies & timelines</li>
+      <li>Cross-functional collaboration</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Tools & Hands-On</h2>
+    <ul>
+      <li>JIRA: roadmap & sprint alignment</li>
+      <li>Confluence: PRDs & documentation</li>
+      <li>Figma / Balsamiq: prototyping</li>
+      <li>Miro / FigJam: journey maps & workflows</li>
+      <li>Analytics basics (GA4, Mixpanel, Amplitude)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Product Launch & Go-to-Market</h2>
+    <ul>
+      <li>Launch strategy & planning</li>
+      <li>Tracking KPIs & success metrics</li>
+      <li>Iterating based on user feedback</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Real-World Product Project</h2>
+    <ul>
+      <li>Discovery & user-research project</li>
+      <li>PRD creation</li>
+      <li>Roadmap & feature prioritization</li>
+      <li>Prototype & final documentation</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>8. Job Preparation</h2>
+    <ul>
+      <li>Product Manager resume setup</li>
+      <li>Case-study based interviews</li>
+      <li>Mock PM interviews</li>
+    </ul>
+  </div>
+
+</div>
+
+<!--  -->
+<div class="container">
+  <h1>4. SCRUM MASTER CURRICULUM</h1>
+  <div class="section">
+    <h2>1. Scrum Master Foundations</h2>
+    <ul>
+      <li>Introduction to Agile & Scrum</li>
+      <li>Scrum Master responsibilities</li>
+      <li>Scrum values, pillars & mindset</li>
+      <li>Coaching & servant leadership</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Scrum Framework</h2>
+    <ul>
+      <li>Scrum roles: SM, PO, Dev Team</li>
+      <li>Scrum events & timeboxes</li>
+      <li>Scrum artifacts & commitments</li>
+      <li>Definition of Done & Ready</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Facilitation Skills</h2>
+    <ul>
+      <li>Running daily standups</li>
+      <li>Effective sprint reviews & retrospectives</li>
+      <li>Backlog refinement facilitation</li>
+      <li>Handling team conflicts</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>4. Tools Training</h2>
+    <ul>
+      <li>JIRA: sprint boards & velocity tracking</li>
+      <li>Confluence: meeting notes & documentation</li>
+      <li>Miro / FigJam for retrospectives</li>
+      <li>Scrum metrics & dashboards</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>5. Scaling Agile</h2>
+    <ul>
+      <li>Introduction to SAFe, LeSS & Nexus</li>
+      <li>Scrum of Scrums</li>
+      <li>Working with cross-team dependencies</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>6. Real-World Scrum Project</h2>
+    <ul>
+      <li>Simulated Scrum ceremonies</li>
+      <li>Sprint planning & execution</li>
+      <li>Velocity reporting & impediment tracking</li>
+      <li>Servant leadership exercises</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Job Preparation</h2>
+    <ul>
+      <li>Scrum Master resume preparation</li>
+      <li>Agile scenario-based questions</li>
+      <li>Mock interviews</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="cta-box">
+    <h3>Ready to Start Your IT Career?</h3>
+    <a href="index.html#cta">Enroll Now</a>
+  </div>
+
+
+</body>
+</html>
